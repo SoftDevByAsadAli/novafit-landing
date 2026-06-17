@@ -14,7 +14,7 @@ A modern, responsive single-page landing page for a fictional fitness app called
 
 ## Live Demo
 
-[View Live Demo](https://your-username.github.io/novafit-landing/)
+[View Live Demo](https://softdevbyasadali.github.io/novafit-landing/)
 <!-- Replace the link above with your real GitHub Pages link -->
 
 ## Features
