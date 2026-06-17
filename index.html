@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- This tells the browser we are using HTML5 -->
+<html lang="en">
+
+<head>
+  <!-- Basic settings for the page -->
+  <meta charset="UTF-8">
+  <!-- This line makes the page responsive on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaFit - Your Smart Fitness Companion</title>
+
+  <!-- Link to our CSS file (the styling lives there) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============ NAVBAR SECTION ============ -->
+  <!-- The top menu bar of the website -->
+  <header class="navbar">
+    <div class="logo">NovaFit</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ HERO SECTION ============ -->
+  <!-- The big top area with product image and main button -->
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h1>Track Your Fitness, The Smart Way</h1>
+      <p>NovaFit helps you stay healthy with real-time tracking, smart goals, and friendly reminders.</p>
+      <!-- Call-to-action button -->
+      <a href="#pricing" class="btn">Get Started Free</a>
+    </div>
+    <div class="hero-image">
+      <!-- Online image from Unsplash (no download needed) -->
+      <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&q=80" alt="Fitness app on phone">
+    </div>
+  </section>
+
+  <!-- ============ FEATURES SECTION ============ -->
+  <!-- Cards that show what the product can do -->
+  <section class="features" id="features">
+    <h2 class="section-title">Why You'll Love NovaFit</h2>
+    <div class="cards">
+
+      <!-- Feature card 1 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&q=80" alt="Workout tracking">
+        <h3>Smart Tracking</h3>
+        <p>Automatically tracks steps, calories, and workouts all day long.</p>
+      </div>
+
+      <!-- Feature card 2 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1434596922112-19c563067271?w=300&q=80" alt="Goals">
+        <h3>Custom Goals</h3>
+        <p>Set personal goals and watch your progress grow every single day.</p>
+      </div>
+
+      <!-- Feature card 3 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=300&q=80" alt="Community">
+        <h3>Friendly Community</h3>
+        <p>Join challenges and stay motivated with friends around the world.</p>
+      </div>
+
+      <!-- Feature card 4 -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&q=80" alt="Reports">
+        <h3>Clear Reports</h3>
+        <p>See easy charts that explain your health in simple, friendly numbers.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ PRICING SECTION ============ -->
+  <!-- The plans the user can choose from -->
+  <section class="pricing" id="pricing">
+    <h2 class="section-title">Simple Pricing</h2>
+    <div class="plans">
+
+      <!-- Plan 1: Free -->
+      <div class="plan">
+        <h3>Free</h3>
+        <p class="price">$0<span>/month</span></p>
+        <ul>
+          <li>Basic step tracking</li>
+          <li>1 fitness goal</li>
+          <li>Community access</li>
+        </ul>
+        <a href="#" class="btn">Choose Free</a>
+      </div>
+
+      <!-- Plan 2: Pro (highlighted as the popular one) -->
+      <div class="plan popular">
+        <h3>Pro</h3>
+        <p class="price">$9<span>/month</span></p>
+        <ul>
+          <li>Everything in Free</li>
+          <li>Unlimited goals</li>
+          <li>Detailed reports</li>
+        </ul>
+        <a href="#" class="btn">Choose Pro</a>
+      </div>
+
+      <!-- Plan 3: Premium -->
+      <div class="plan">
+        <h3>Premium</h3>
+        <p class="price">$19<span>/month</span></p>
+        <ul>
+          <li>Everything in Pro</li>
+          <li>Personal coach</li>
+          <li>24/7 support</li>
+        </ul>
+        <a href="#" class="btn">Choose Premium</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS SECTION ============ -->
+  <!-- Reviews from happy customers -->
+  <section class="testimonials" id="testimonials">
+    <h2 class="section-title">What Our Users Say</h2>
+    <div class="reviews">
+
+      <!-- Review 1 -->
+      <div class="review">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="User photo">
+        <p>"NovaFit changed my daily routine. I feel healthier and more motivated!"</p>
+        <h4>- Sarah M.</h4>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="User photo">
+        <p>"The reports are so easy to understand. Best fitness app I've tried."</p>
+        <h4>- James T.</h4>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="User photo">
+        <p>"I love the community challenges. They keep me coming back every day!"</p>
+        <h4>- Aisha K.</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER SECTION ============ -->
+  <!-- The bottom part of the page -->
+  <footer class="footer">
+    <p>NovaFit &copy; 2026. Made with care for healthier living.</p>
+    <p>Follow us: Facebook | Instagram | Twitter</p>
+  </footer>
+
+</body>
+</html>
